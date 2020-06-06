@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_USER": "MONGO_DB_USERNAME",
+    "MONGO_PASSWORD": "MONGO_DB_PASSWORD",
+    "MONGO_DATABASE": "foodApp",
+    "SENDGRID_KEY": "YOUR_SENDGRID_API_KEY"
+  }
+}

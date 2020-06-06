@@ -1,0 +1,36 @@
+{
+  "name": "io.foodapp",
+  "version": "1.0.0",
+  "description": "Online Food Delivery Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "online",
+    "food",
+    "delivery",
+    "app",
+    "webApp",
+    "order"
+  ],
+  "author": "Abhishek Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "socket.io": "^2.3.0"
+  }
+}
